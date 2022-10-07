@@ -12,5 +12,5 @@ upt = Updater("5666523095:AAEAIjO1IvbllN2hIHVB4aG5OCDvNZe0vm8", use_context=True
 upt.dispatcher.add_handler(CommandHandler("start",stm))
 upt.dispatcher.add_handler(CommandHandler("status",stt))
 
-upt.start()
+upt.start_polling()
 idle()
